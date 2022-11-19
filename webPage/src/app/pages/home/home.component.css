@@ -1,0 +1,14 @@
+#btn-home-service {
+    background-color: #D4AF37;
+    border-color: #D4AF37;
+}
+
+#btn-home-service:hover {
+    background-color: #ffff;
+    border-color: #ffff;
+    color: black;
+}
+
+.carousel-inner .col-lg-4 {
+    text-align: center;
+}

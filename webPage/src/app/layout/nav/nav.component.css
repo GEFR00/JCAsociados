@@ -1,3 +1,7 @@
 .navbar-nav .nav-link {
     color: #ffff;
 }
+
+.navbar-nav .nav-link:hover {
+    color: #D4AF37;
+}
