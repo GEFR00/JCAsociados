@@ -5,3 +5,8 @@
 .navbar-nav .nav-link:hover {
     color: #D4AF37;
 }
+
+.navbar-nav .bi{
+    color: #ffff;
+    background-color: white;
+}
