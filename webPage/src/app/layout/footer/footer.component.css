@@ -1,0 +1,18 @@
+footer{
+    margin-top: 50px;
+    bottom: 0;
+    height: 130px;
+    width: 100%;
+    background:linear-gradient(90deg, #2c2c2c 0%, #0D0D0D 100%); ;
+    color: rgb(255, 255, 255);
+}
+
+footer .network {
+    margin: 0 auto;
+}
+
+footer .home-icon {
+    margin-top: 200%;
+    margin-left: 500%;
+    transform: scale(4);
+}
