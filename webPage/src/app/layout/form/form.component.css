@@ -3,4 +3,24 @@ form {
     margin-left: 100px;
     margin-right: 100px;
     margin-top: 30px;
+    padding: 20px;
+}
+
+#titulo-form {
+    font-weight: 800;
+}
+
+#btn-form-send {
+    background-color: #D4AF37;
+    border-color: #D4AF37;
+    color: black;
+    font-weight: 500;
+    width: 350px;
+
+}
+
+#btn-form-send:hover {
+    background-color: #ffff;
+    border-color: #D4AF37;
+    border-width: 1px;
 }

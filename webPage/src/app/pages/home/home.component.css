@@ -1,14 +1,50 @@
+.home {
+    background-color: black;
+}
+
+#carouselExampleSlidesOnly {
+    margin-bottom: 50px;
+}
+
+button {
+    font-weight: 500;
+}
+
 #btn-home-service {
     background-color: #D4AF37;
     border-color: #D4AF37;
+    color: black;
 }
 
 #btn-home-service:hover {
     background-color: #ffff;
     border-color: #ffff;
-    color: black;
 }
 
-.carousel-inner .col-lg-4 {
+
+.carousel-caption {
+    color: #ffff;
+    font-size: 25px;
+    right: 58%;
     text-align: center;
+    max-width: 600px;
+    left: auto;
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial;
+}
+
+#imagen-home {
+    height: 950px;
+}
+
+.horario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#horario-home {
+    color: #ffff;
 }
