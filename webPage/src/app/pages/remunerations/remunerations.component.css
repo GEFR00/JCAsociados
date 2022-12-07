@@ -1,0 +1,78 @@
+.accounting {
+    background-color: black;
+}
+
+#nombre-empresa{ 
+    color: #D4AF37;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+#nombre-vista{ 
+    color: black;
+    font-weight: 800;
+    font-size: 44px;
+    text-transform: none;
+
+
+}
+
+.carousel-inner{
+    background-color: #ffff;
+}
+
+.titulo-carousel {
+    line-height: 60px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.texto-carousel {
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 16px;
+}
+
+#btn-carousel {
+    margin-top: 20px;
+    background-color: #D4AF37;
+    border-color: #D4AF37;
+    color: black;
+    font-weight: 500;
+
+}
+
+#btn-carousel:hover {
+    background-color: #ffff;
+    border-color: #D4AF37;
+    border-width: 1px;
+}
+
+#card-vista {
+    margin-top: 100px;
+    padding: 30px;
+    margin-bottom: 100px;
+}
+
+.card-header {
+    font-size: 40px;
+    color: #D4AF37;
+    font-weight: 800;
+
+}
+
+hr {
+    color: #ffff;
+    border-width: 2px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.card-body {
+    text-align: justify;
+}
+
+.card-text {
+    font-size: 16px;
+    line-height: 20px;
+}
