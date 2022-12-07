@@ -1,7 +1,9 @@
 import { NgModule } from '@angular/core';
+import { FlexLayoutModule } from '@angular/flex-layout';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
+import { MaterialModule } from './material.module';
 import { AppComponent } from './app.component';
 import { RemunerationsComponent } from './pages/remunerations/remunerations.component';
 import { TaxesComponent } from './pages/taxes/taxes.component';
@@ -28,6 +30,8 @@ import { FormComponent } from './layout/form/form.component';
   ],
   imports: [
     BrowserModule,
+    FlexLayoutModule,
+    MaterialModule,
     AppRoutingModule
   ],
   providers: [],

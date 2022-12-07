@@ -1,1 +1,26 @@
-<p>footer works!</p>
+<div>
+    <footer fxLayout="row wrap">
+        <div>
+            <div class="home" fxLayoutAlign="center center">
+                <mat-icon class="home-icon" (click)="toHome()">lens</mat-icon>
+            </div>
+        </div>
+        <div class="network" fxLayout="row wrap" fxFlex="20" fxLayoutAlign="space-around">
+            <div fxLayout="column" fxFlex="30" fxLayoutAlign="center center">
+                <mat-icon class="icon" (click)="toPhone()">phone</mat-icon>
+                <span>+56912345678</span>
+            </div>
+            <div fxLayout="column" fxFlex="30" fxLayoutAlign="center center">
+                <mat-icon class="icon" (click)="toLin()">linkedin</mat-icon>
+                <span>xxxxxxxxxxx</span>
+            </div>
+            <div fxLayout="column" fxFlex="30" fxLayoutAlign="center center">
+                <mat-icon class="icon" (click)="toMail()">mail_outline</mat-icon>
+                <span>xx@gmail.com</span>
+            </div>
+            <div fxFlex="100" fxLayoutAlign="center">
+                &copy; Copyright Shu5t
+            </div>
+        </div>
+    </footer>
+</div>
