@@ -82,3 +82,16 @@ hr {
     font-size: 16px;
     line-height: 20px;
 }
+
+#hr-apartados{
+    color: #D4AF37;
+    border-width: 2px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#img-apartado {
+    opacity: 80%;
+    filter: brightness(80%);
+    -webkit-filter: brightness(80%);
+}

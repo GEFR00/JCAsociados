@@ -76,3 +76,9 @@ hr {
     font-size: 16px;
     line-height: 20px;
 }
+
+#img-apartado {
+    opacity: 80%;
+    filter: brightness(80%);
+    -webkit-filter: brightness(80%);
+}
