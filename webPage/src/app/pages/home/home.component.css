@@ -58,6 +58,7 @@ button {
     max-width: 500px;
     margin-bottom: 8px;
     background-color: black;
+    
 }
 
 .example-card .img-card {
@@ -66,7 +67,15 @@ button {
 
 mat-card-title {
     color: #D4AF37;
+    margin-left: 15px;
+
 }
+
+mat-card-subtitle {
+    text-align: justify;
+    margin-left: 15px;
+}
+
 
 #equipo-header {
     margin-top: 10px;
