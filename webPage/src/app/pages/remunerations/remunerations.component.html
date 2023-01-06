@@ -2,23 +2,24 @@
     <!-- Carousel  -->
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
-               <div class="carousel-item active text-center">
-                   <div class="row align-items-center">
-                        <div class="col-md py-2 center">
-                            <img id="img-apartado" class="d-block img-fluid" src="../../../assets/imgs/c2.jpg" alt="First slide">
-                        </div>
-                       <div id="car-derecho"class="col-md py-2 center">
-                            <h1 id="nombre-empresa" class="titulo-carousel">Jimenes y Campos Asociados Spa</h1>
-                            <h2 id="nombre-vista" class="titulo-carousel">Remuneraciones</h2>
-                            <p class="texto-carousel">Las remuneraciones son una de las fuentes más importantes de gasto 
-                                en cualquier empresa, como también motivo de obligaciones legales, por esto, 
-                                es necesario llevar un control adecuado y en línea con las dinámicas disposiciones de la
-                                Dirección del Trabajo.  </p>
-                            <button id="btn-carousel" class="btn btn-primary">Solicitar servicio</button>
-                       </div>
-                       
-                   </div>
-               </div>
+            <div class="carousel-item active text-center">
+                <div class="row align-items-center">
+                    <div class="col-md py-2 center">
+                        <img id="img-apartado" class="d-block img-fluid" src="../../../assets/imgs/c2.jpg"
+                            alt="First slide">
+                    </div>
+                    <div id="car-derecho" class="col-md py-2 center">
+                        <h1 id="nombre-empresa" class="titulo-carousel">Jimenes y Campos Asociados Spa</h1>
+                        <h2 id="nombre-vista" class="titulo-carousel">Remuneraciones</h2>
+                        <p class="texto-carousel">Las remuneraciones son una de las fuentes más importantes de gasto
+                            en cualquier empresa, como también motivo de obligaciones legales, por esto,
+                            es necesario llevar un control adecuado y en línea con las dinámicas disposiciones de la
+                            Dirección del Trabajo. </p>
+                            <button type="button" id="btn-home-service" class="btn btn-primary" (click)="dirigeForm()">Solicitar Servicio</button>
+                    </div>
+
+                </div>
+            </div>
         </div>
     </div>
 
@@ -26,16 +27,20 @@
         <div class="card-header">Información adicional</div>
         <hr>
         <div class="card-body">
-          <p class="card-text">Las remuneraciones no sólo se tratan de pagar un sueldo, existen variadas 
-            obligaciones contractuales y de carácter informativo en los distintos organismos gubernamentales o
-            privados; tales como: PreviRed, FONASA, AFP, Mutuales, Cajas de compensación, Isapres, Compin, SII, 
-            entre otros.
+            <p class="card-text">Las remuneraciones no sólo se tratan de pagar un sueldo, existen variadas
+                obligaciones contractuales y de carácter informativo en los distintos organismos gubernamentales o
+                privados; tales como: PreviRed, FONASA, AFP, Mutuales, Cajas de compensación, Isapres, Compin, SII,
+                entre otros.
             </p>
             <p class="card-text">
-                A lo anterior se suma, la alta regulación fiscal y las cuantiosas multas por realizar mal 
-                esta operación, o por incumplimiento de las distintas normas establecidas por la Dirección del 
+                A lo anterior se suma, la alta regulación fiscal y las cuantiosas multas por realizar mal
+                esta operación, o por incumplimiento de las distintas normas establecidas por la Dirección del
                 Trabajo. Convirtiendo así, a las remuneraciones en un objetivo estratégico a monitorear.
             </p>
         </div>
-      </div>
+    </div>
+    <!-- Formulario -->
+    <div id="app-form">
+        <app-form></app-form>
+    </div>
 </div>

@@ -33,16 +33,15 @@
     font-size: 16px;
 }
 
-#btn-carousel {
+#btn-home-service {
     margin-top: 20px;
     background-color: #D4AF37;
     border-color: #D4AF37;
     color: black;
     font-weight: 500;
-
 }
 
-#btn-carousel:hover {
+#btn-home-service:hover {
     background-color: #ffff;
     border-color: #D4AF37;
     border-width: 1px;
