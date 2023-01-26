@@ -1,26 +1,21 @@
 <div>
-    <footer fxLayout="row wrap">
-        <div>
-            <div class="home" fxLayoutAlign="center center">
-                <!-- <mat-icon class="home-icon" (click)="toHome()">lens</mat-icon> -->
-            </div>
-        </div>
-        <div class="network" fxLayout="row wrap" fxFlex="30" fxLayoutAlign="space-around">
-            <div fxLayout="column" fxFlex="30" fxLayoutAlign="center center">
+    <footer fxLayout="column">
+        <div class="network">
+            <div class="butt" fxLayout="column" fxFlex="30" fxLayoutAlign="center center">
                 <img class="icon" src="../../../assets/imgs/telephone.png" (click)="toPhone()">
                 <span>+56947609898</span>
             </div>
-            <div fxLayout="column" fxFlex="30" fxLayoutAlign="center center">
+            <div class="butt" fxLayout="column" fxFlex="30" fxLayoutAlign="center center">
                 <img class="icon" src="../../../assets/imgs/linkedin.png" (click)="toLin()">
                 <span>JCAsociados</span>
             </div>
-            <div fxLayout="column" fxFlex="30" fxLayoutAlign="center center">
+            <div class="butt" fxLayout="column" fxFlex="30" fxLayoutAlign="center center">
                 <img class="icon" src="../../../assets/imgs/correo.png" (click)="toMail()">
                 <span>contacto@jcasociados.cl</span>
             </div>
-            <div fxFlex="100" fxLayoutAlign="center">
-                &copy; Copyright Shu5t
-            </div>
+        </div>
+        <div fxFlex="100" fxLayoutAlign="center">
+            &copy; Copyright Shu5t
         </div>
     </footer>
 </div>

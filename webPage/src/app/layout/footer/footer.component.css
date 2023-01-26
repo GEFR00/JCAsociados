@@ -11,13 +11,11 @@ footer .network {
     margin: 0 auto;
 }
 
-footer .home-icon {
-    margin-top: 200%;
-    margin-left: 500%;
-    transform: scale(4);
-}
-
 .icon {
     height: 30px;
     margin-bottom: 5px;
+}
+
+.butt {
+    margin: 20px;
 }

@@ -34,12 +34,16 @@ button {
     bottom: initial;
 }
 
-#carousel-text {
-    line-height: 30px;
+.carousel-item {
+    height: 800px;
 }
 
 #imagen-home {
-    height: 950px;
+    transform: scale(2.6);
+}
+
+#carousel-text {
+    line-height: 30px;
 }
 
 .horario {
