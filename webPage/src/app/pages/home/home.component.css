@@ -1,5 +1,5 @@
 .home {
-    background-color: black;
+    background-color: rgb(27, 27, 27);
 }
 
 #carouselExampleSlidesOnly {
@@ -25,13 +25,15 @@ button {
 .carousel-caption {
     color: #ffff;
     font-size: 25px;
-    right: 58%;
-    text-align: center;
-    max-width: 600px;
-    left: auto;
-    top: 50%;
-    transform: translateY(-50%);
-    bottom: initial;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    bottom: 37%;
+    margin: auto;
+    line-height: 30px;
+
 }
 
 #carousel-text {
@@ -39,7 +41,10 @@ button {
 }
 
 #imagen-home {
-    height: 950px;
+    height: 800px;
+    -webkit-filter: brightness(0.5);
+    filter: blur(2px);
+    filter: brightness(0.5);
 }
 
 .horario {
@@ -49,42 +54,60 @@ button {
     justify-content: center;
 }
 
-#horario-home {
-    color: #ffff;
-    text-align: center;
-}
-
-.example-card {
-    max-width: 500px;
-    margin-bottom: 8px;
-    background-color: black;
-    
-}
-
-.example-card .img-card {
-    border-radius:150px;
-}
-
-mat-card-title {
-    color: #D4AF37;
-    margin-left: 15px;
-
-}
-
-mat-card-subtitle {
-    text-align: justify;
-    margin-left: 15px;
-}
-
-
-#equipo-header {
+#equipo {
     margin-top: 10px;
+    color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: #ffff;
-    font-weight: 800;
     font-size: 30px;
-
+    letter-spacing: 2px;
 }
+
+#horario-home {
+    color: rgb(184, 184, 184);
+    text-align: center;
+}
+
+
+.card {
+    margin-top: 15px;
+    background-color: rgb(37, 37, 37);
+    margin-bottom: 10px;
+    box-shadow: 16px 14px 20px #0000008c;
+    
+}
+
+.card img {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border: 5px solid #D4AF37;
+    overflow: hidden;
+    top: 5px;
+    left: 30%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: 5s;
+    -webkit-transition: 5s;
+    -moz-transition: 5s;
+    -ms-transition: 5s;
+    -o-transition: 5s;
+}
+
+.card .card-text {
+    text-align: justify;
+    color: rgb(221, 221, 221);
+}
+
+.card h5 {
+    color: #D4AF37;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+}
+

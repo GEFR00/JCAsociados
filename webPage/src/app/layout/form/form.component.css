@@ -1,13 +1,15 @@
 form {
-    background-color: #ffff;
-    margin-left: 100px;
-    margin-right: 100px;
+    background-color: rgb(37, 37, 37);
+    box-shadow: 16px 14px 20px #0000008c;
+    margin-left: 15px;
+    margin-right: 15px;
     margin-top: 30px;
     padding: 20px;
 }
 
 #titulo-form {
     font-weight: 800;
+    color: #ffff;
 }
 
 #btn-form-send {
@@ -23,4 +25,19 @@ form {
     background-color: #ffff;
     border-color: #D4AF37;
     border-width: 1px;
+}
+
+input {
+    background-color: rgb(60, 60, 60);
+    color: rgb(225, 225, 225);
+}
+
+textarea {
+    background-color: rgb(60, 60, 60);
+    color: rgb(225, 225, 225);
+
+}
+
+label {
+    color: rgb(225, 225, 225);
 }
