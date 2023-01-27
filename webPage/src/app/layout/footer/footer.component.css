@@ -17,5 +17,9 @@ footer .network {
 }
 
 .butt {
-    margin: 20px;
+    margin: 10px;
+}
+
+span {
+    font-size: 10px;
 }
